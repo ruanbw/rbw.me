@@ -9,7 +9,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     DarkToggleButton: typeof import('./src/components/DarkToggleButton.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
-    IFaBeer: typeof import('~icons/fa/beer')['default']
     ListPosts: typeof import('./src/components/ListPosts.vue')['default']
     ListProjects: typeof import('./src/components/ListProjects.vue')['default']
     Logo: typeof import('./src/components/Logo.vue')['default']
