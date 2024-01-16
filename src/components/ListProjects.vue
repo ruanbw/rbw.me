@@ -40,29 +40,14 @@ function slug(name: string) {
             <AnthonyFu v-else-if="item.icon === 'af'" class="text-4xl opacity-50" /> -->
             <div class="text-3xl opacity-50" :class="item.icon || 'i-carbon-unknown'" />
           </div>
-          <div class="flex-auto">
+          <div class="flex-auto text-gray-700 dark:text-gray-200">
             <div class="text-normal">{{ item.name }}</div>
             <div class="desc text-sm opacity-50 font-normal" v-html="item.desc" />
           </div>
         </a>
       </div>
     </div>
-    <div class="prose pb5 mx-auto mt10 text-center">
-      <p op75>
-        <em>
-          Thanks for getting interested in my works! If like them or find them useful, consider
-          &nbsp;<a
-            href="https://github.com/sponsors/antfu"
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-          >sponsoring me</a>&nbsp;to support me keeping them sustainable. Cheers! :)
-        </em>
-      </p>
-
-      <div block mt-5>
-        <a href="https://antfu.me/stars-rank" target="_blank" op50>All projects sort by Stars</a>
-      </div>
-    </div>
+    
   </div>
   <div>
     <div class="table-of-contents">
