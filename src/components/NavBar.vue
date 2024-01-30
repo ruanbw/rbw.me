@@ -54,7 +54,7 @@ const { y: scroll } = useWindowScroll()
         <RouterLink to="/sponsors-list" title="Sponsors">
           <div i-ri-user-heart-line />
         </RouterLink> -->
-        <a href="https://github.com/1813967922" target="_blank" title="GitHub" class="lt-md:hidden">
+        <a href="https://github.com/rbw" target="_blank" title="GitHub" class="lt-md:hidden">
           <div i-uil-github-alt />
         </a>
         <ToggleTheme />
